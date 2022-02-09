@@ -1,0 +1,11 @@
+body {
+    background: rgb(115,137,254);
+    background: -moz-linear-gradient(281deg, rgba(115,137,254,1) 0%, rgba(194,81,208,1) 100%);
+    background: -webkit-linear-gradient(281deg, rgba(115,137,254,1) 0%, rgba(194,81,208,1) 100%);
+    background: linear-gradient(281deg, rgba(115,137,254,1) 0%, rgba(194,81,208,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7389fe",endColorstr="#c251d0",GradientType=1);
+}
+
+article.bio {
+    margin: 0 9%;
+}
