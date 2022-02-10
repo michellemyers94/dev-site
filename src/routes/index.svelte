@@ -14,6 +14,7 @@
     import DiIllustrator from 'svelte-icons/di/DiIllustrator.svelte';
     import DiCss3 from 'svelte-icons/di/DiCss3.svelte';
 </script>
+<body>
 <main class="intro">
     <h1>Hi! My name is Michelle.</h1>
     <h2>I'm a Designer & Developer based in the San Francisco Bay Area.</h2>
@@ -87,3 +88,4 @@
 </article>
 </main>
 
+</body>

@@ -4,15 +4,34 @@ body {
 
 main.intro {
     text-align: center;
-    margin: 2% 20%;
-}
 
+}
+@media screen and (min-width: 1200px) {
+    main.intro {
+        margin: 2% 20%;
+    }
+
+    img.profile_picture {
+        width: 40%;
+    }
+
+    main.intro p {
+        font-size: 2vmin;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    main.intro p {
+        font-size: 2vmin;
+    }
+}
 main.intro h1 {
     font-size: 10vmin;
 }
 
 main.intro h2 {
     font-size: 3vmin;
+    padding: 0 12%;
 }
 
 main.intro p {
@@ -49,3 +68,4 @@ article.bio p {
 .icon a:hover {
     color: blueviolet;
 }
+
