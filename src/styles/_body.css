@@ -10,3 +10,22 @@ body {
 article.bio {
     margin: 0 9%;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica LT Pro", sans-serif;
+    font-variant: all-petite-caps;
+}
+
+button {
+    padding: 1% 2%;
+    background: none;
+    border-color: rgba(255, 255, 255, .5);
+    margin-top: 2%;
+}
+
+button:hover {
+    background: rgba(115, 137, 254, .4);
+    cursor: pointer;
+}

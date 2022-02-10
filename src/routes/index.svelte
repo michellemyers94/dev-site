@@ -6,6 +6,9 @@
     import FaPaintBrush from 'svelte-icons/fa/FaPaintBrush.svelte';
     import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
 
+    import resume from '../../static/michelle-myers-resume.pdf';
+
+
     import FaPython from 'svelte-icons/fa/FaPython.svelte';
     import FaReact from 'svelte-icons/fa/FaReact.svelte';
     import DiMongodb from 'svelte-icons/di/DiMongodb.svelte';
@@ -51,6 +54,9 @@
         <a href="https://instagram.com/musicalmichelle94" target="_blank"><FaInstagram /></a>
     </div>
 </div>
+
+
+    <button class="resume_download"><a href={resume} download>Download Resume</a></button>
 
 <!--<p>Skills</p>-->
 <!--    <div class="skills">-->
